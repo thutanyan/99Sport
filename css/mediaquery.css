@@ -1,0 +1,126 @@
+@media only screen and (max-width:1200px) {
+}
+
+
+
+@media only screen and (max-width:1023px) {
+   
+   
+   
+   
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+    header{
+        height: auto !important;
+    }
+
+    .header-first{
+        display: inline-block !important;
+        font-size: 30px !important;
+    }
+
+    .headerspans{
+        display: inline-block !important;
+    }
+
+    .header-p{
+        font-size: 18px !important;
+    }
+
+    .headerspans::after{
+        width:100% !important;
+    }
+
+    .headerbtn-con{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+
+    .headerimgs{
+        width: 240px !important;
+        animation: none !important;
+    }
+
+    .headerbtns{
+        font-size: 14px !important;
+    }
+
+
+    /*  */
+    .navlinks{
+        width: 75px;
+        /* background: blue; */
+    }  
+    
+    .navlinks::after{
+        bottom: 0;
+        left: -35%;
+        transition: all 0.4s;
+    }
+    
+    
+    .navlinks:hover::after{
+        left: 0 !important;
+    }
+    
+    
+    .navlinks.actives{
+        color: #edf7f1;
+    }
+    
+    .navlinks.actives::after{
+        left: 0 !important;
+    }
+
+
+
+    .feature-card{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+
+        display: flex;
+        justify-content: left !important;
+        padding: 0 20px;
+        /* align-self: center; */
+        /* vertical-align: middle; */
+    }
+}   
+
+
+
+@media only screen and (max-width:480px) {
+    .header-first{
+       
+        font-size: 20px !important;
+    }
+    
+    .header-p{
+        font-size: 15px !important;
+    }
+
+
+
+    .feature-p{
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    
+    
+    .feature-h1{
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+
+    .details-h1{
+        font-weight: 900;
+        font-size:18px;
+    }
+}
